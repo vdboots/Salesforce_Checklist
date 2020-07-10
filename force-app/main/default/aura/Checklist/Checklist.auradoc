@@ -1,0 +1,199 @@
+<aura:documentation>
+  <aura:description>
+    <p>
+      <span data-contrast="auto">Checklist aura component</span
+      ><span data-ccp-props='{"201341983":0,"335559739":160,"335559740":259}'
+        >&nbsp;</span
+      >
+    </p>
+    <p>
+      <span data-ccp-props='{"201341983":0,"335559739":160,"335559740":259}'
+        >&nbsp;</span
+      >
+    </p>
+    <p>
+      <span data-contrast="auto">The checklist aura component&nbsp;is</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">build</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">to</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">be</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">placed</span
+      ><span data-contrast="auto">&nbsp;on&nbsp;</span
+      ><span data-contrast="auto">each</span
+      ><span data-contrast="auto">&nbsp;record in&nbsp;</span
+      ><span data-contrast="auto">a Salesforce&nbsp;org.</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">The component&nbsp;</span
+      ><span data-contrast="auto">uses</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">the</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">RecordId</span
+      ><span data-contrast="auto">&nbsp;on&nbsp;</span
+      ><span data-contrast="auto">the</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><strong><span data-contrast="auto">Record Detail Page</span></strong
+      ><strong><span data-contrast="auto">.&nbsp;</span></strong
+      ><span
+        data-ccp-props='{"201341983":0,"335551550":1,"335551620":1,"335559739":160,"335559740":259}'
+        >&nbsp;</span
+      >
+    </p>
+    <p>
+      <span
+        data-ccp-props='{"201341983":0,"335551550":1,"335551620":1,"335559739":160,"335559740":259}'
+        >&nbsp;</span
+      >
+    </p>
+    <p>
+      <span data-contrast="auto">To</span
+      ><span data-contrast="auto">&nbsp;change&nbsp;</span
+      ><span data-contrast="auto">the</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">language</span
+      ><span data-contrast="auto">&nbsp;of&nbsp;</span
+      ><span data-contrast="auto">the</span
+      ><span data-contrast="auto">&nbsp;component&nbsp;</span
+      ><span data-contrast="auto">use</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">the</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">following</span
+      ><span data-contrast="auto">&nbsp;fields in de&nbsp;</span
+      ><span data-contrast="auto">properties</span
+      ><span data-contrast="auto">&nbsp;Page&nbsp;layout:</span
+      ><span
+        data-ccp-props='{"201341983":0,"335551550":1,"335551620":1,"335559739":160,"335559740":259}'
+        >&nbsp;</span
+      >
+    </p>
+    <ul>
+      <li
+        data-leveltext=""
+        data-font="Symbol"
+        data-listid="2"
+        data-aria-posinset="1"
+        data-aria-level="1"
+      >
+        <span data-contrast="auto">nameLabel</span
+        ><span
+          data-ccp-props='{"134233279":true,"201341983":0,"335551550":1,"335551620":1,"335559737":0,"335559739":160,"335559740":259}'
+          >&nbsp;</span
+        >
+      </li>
+      <li
+        data-leveltext=""
+        data-font="Symbol"
+        data-listid="2"
+        data-aria-posinset="2"
+        data-aria-level="1"
+      >
+        <span data-contrast="auto">finishedLabel</span
+        ><span
+          data-ccp-props='{"134233279":true,"201341983":0,"335551550":1,"335551620":1,"335559737":0,"335559739":160,"335559740":259}'
+          >&nbsp;</span
+        >
+      </li>
+      <li
+        data-leveltext=""
+        data-font="Symbol"
+        data-listid="2"
+        data-aria-posinset="3"
+        data-aria-level="1"
+      >
+        <span data-contrast="auto">statusLabel</span
+        ><span
+          data-ccp-props='{"134233279":true,"201341983":0,"335551550":1,"335551620":1,"335559737":0,"335559739":160,"335559740":259}'
+          >&nbsp;</span
+        >
+      </li>
+      <li
+        data-leveltext=""
+        data-font="Symbol"
+        data-listid="2"
+        data-aria-posinset="4"
+        data-aria-level="1"
+      >
+        <span data-contrast="auto">actionLabel</span
+        ><span
+          data-ccp-props='{"134233279":true,"201341983":0,"335551550":1,"335551620":1,"335559737":0,"335559739":160,"335559740":259}'
+          >&nbsp;</span
+        >
+      </li>
+      <li
+        data-leveltext=""
+        data-font="Symbol"
+        data-listid="2"
+        data-aria-posinset="5"
+        data-aria-level="1"
+      >
+        <span data-contrast="auto">addButtonLabel</span
+        ><span
+          data-ccp-props='{"134233279":true,"201341983":0,"335551550":1,"335551620":1,"335559737":0,"335559739":160,"335559740":259}'
+          >&nbsp;</span
+        >
+      </li>
+      <li
+        data-leveltext=""
+        data-font="Symbol"
+        data-listid="2"
+        data-aria-posinset="6"
+        data-aria-level="1"
+      >
+        <span data-contrast="auto">deleteButtonLabel</span
+        ><span
+          data-ccp-props='{"134233279":true,"201341983":0,"335551550":1,"335551620":1,"335559737":0,"335559739":160,"335559740":259}'
+          >&nbsp;</span
+        >
+      </li>
+      <li
+        data-leveltext=""
+        data-font="Symbol"
+        data-listid="2"
+        data-aria-posinset="6"
+        data-aria-level="1"
+      >
+        <span data-contrast="auto">actionOpenButtonLabel</span
+        ><span
+          data-ccp-props='{"134233279":true,"201341983":0,"335551550":1,"335551620":1,"335559737":0,"335559739":160,"335559740":259}'
+          >&nbsp;</span
+        >
+      </li>
+      <li
+        data-leveltext=""
+        data-font="Symbol"
+        data-listid="2"
+        data-aria-posinset="6"
+        data-aria-level="1"
+      >
+        <span data-contrast="auto">actionCloseButtonLabel</span
+        ><span
+          data-ccp-props='{"134233279":true,"201341983":0,"335551550":1,"335551620":1,"335559737":0,"335559739":160,"335559740":259}'
+          >&nbsp;</span
+        >
+      </li>
+    </ul>
+    <p>
+      <span data-contrast="auto">With</span
+      ><span data-contrast="auto">&nbsp;these&nbsp;</span
+      ><span data-contrast="auto">Properties</span
+      ><span data-contrast="auto">&nbsp;</span
+      ><span data-contrast="auto">the</span
+      ><span data-contrast="auto">&nbsp;component is&nbsp;</span
+      ><span data-contrast="auto">langu</span
+      ><span data-contrast="auto">age</span
+      ><span data-contrast="auto">&nbsp; is editable.</span
+      ><span
+        data-ccp-props='{"201341983":0,"335551550":1,"335551620":1,"335559739":160,"335559740":259}'
+        >&nbsp;</span
+      >
+    </p>
+  </aura:description>
+  <aura:example name="Checklist" ref="c:Checklist" label="Checklist">
+    Universal checklist component that can be use in almost all Record Detail
+    pages.
+  </aura:example>
+</aura:documentation>
