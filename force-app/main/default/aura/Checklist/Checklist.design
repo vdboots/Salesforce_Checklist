@@ -1,0 +1,15 @@
+<design:component>
+    <design:attribute name="nameLabel" label="Name Label" description="Enter name of the component Name label" />
+    <design:attribute name="finishedLabel" label="Finished label" description="Enter name of the Finished  label" />
+    <design:attribute name="statusLabel" label="State label" description="Enter name of the Status label" />
+    <design:attribute name="actionLabel" label="Action label" description="Enter name of the Action label" />
+    <design:attribute name="addButtonLabel" label="Add Button label"
+        description="Enter name of the Add Item button label" />
+    <design:attribute name="deleteButtonLabel" label="Delete Button label"
+        description="Enter name of the Delete Button label" />
+    <design:attribute name="actionOpenButtonLabel" label="Open checklist item Button label"
+        description="Enter name of the open checklist item button label" />
+    <design:attribute name="actionCloseButtonLabel" label="Close checklist item Button label"
+        description="Enter name of the close checklist item button label" />
+
+</design:component>
