@@ -6,14 +6,14 @@
     cmp.set("v.columns", [
       {
         label: cmp.get("v.nameLabel"),
-        fieldName: "vincere__Description__c",
+        fieldName: "Description__c",
         type: "text",
         editable: true,
         cellAttributes: { class: { fieldName: "lineBase" } },
       },
       {
         label: cmp.get("v.finishedLabel"),
-        fieldName: "vincere__Finished__c",
+        fieldName: "Finished__c",
         type: "boolean",
         cellAttributes: { class: { fieldName: "lineBase" } },
       },

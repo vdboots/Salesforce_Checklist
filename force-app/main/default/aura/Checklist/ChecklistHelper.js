@@ -9,7 +9,7 @@
         if (state === "SUCCESS") {
           var resp = response.getReturnValue();
           resp.forEach((row) => {
-            if (row.vincere__Finished__c == true) {
+            if (row.Finished__c == true) {
               row.actionLabel = cmp.get("v.actionOpenButtonLabel");
               row.lineBase = "linethrough";
             } else {
@@ -80,16 +80,16 @@
   updateRecordStatus: function(cmp, row) {
     var data = cmp.get("v.data");
     var rows = [];
-    switch (row.vincere__Finished__c) {
+    switch (row.Finished__c) {
       case true:
         row.lineBase = "linethrough-none";
         row.actionLabel = cmp.get("v.actionCloseButtonLabel");
-        row.vincere__Finished__c = false;
+        row.Finished__c = false;
         break;
       case false:
         row.actionLabel = cmp.get("v.actionOpenButtonLabel");
         row.lineBase = "linethrough";
-        row.vincere__Finished__c = true;
+        row.Finished__c = true;
         break;
       default:
         break;
