@@ -1,0 +1,97 @@
+<aura:component
+  implements="flexipage:availableForAllPageTypes,force:hasRecordId"
+  controller="CheckListController"
+>
+  <!-- attributes -->
+  <aura:attribute
+    name="recordId"
+    type="String"
+    description="Hold the current RecordID of the page it is added to."
+  />
+  <aura:attribute
+    name="data"
+    type="Object"
+    description="Contains The datatable data"
+  />
+  <aura:attribute
+    name="errors"
+    type="Object"
+    default="[]"
+    description="Object for error information"
+  />
+  <aura:attribute
+    name="draftValues"
+    type="Object"
+    default="[]"
+    description="Object that contains infomration stored before it saved to through controller"
+  />
+  <aura:attribute
+    name="nameLabel"
+    type="String"
+    default="Name"
+    description="Value for changing the name label"
+  />
+  <aura:attribute
+    name="finishedLabel"
+    type="String"
+    default="Finished"
+    description="Value for changing the finished label"
+  />
+  <aura:attribute
+    name="statusLabel"
+    type="String"
+    default="State"
+    description="Value for changing the status label"
+  />
+  <aura:attribute
+    name="actionLabel"
+    type="String"
+    default="Action"
+    description="Value for changing the action label"
+  />
+  <aura:attribute
+    name="addButtonLabel"
+    type="String"
+    default="New Item"
+    description="Value for changing the add button label"
+  />
+  <aura:attribute
+    name="deleteButtonLabel"
+    type="String"
+    default="Delete"
+    description="Value for changing the delete button label"
+  />
+  <aura:attribute
+    name="actionOpenButtonLabel"
+    type="String"
+    default="Open"
+    description="Value for changing the action open button label"
+  />
+  <aura:attribute
+    name="actionCloseButtonLabel"
+    type="String"
+    default="Close"
+    description="Value for changing the action close button label"
+  />
+
+  <!--Lightning input -->
+  <aura:attribute name="columns" type="List" />
+  <aura:handler name="init" value="{! this }" action="{! c.init }" />
+  <lightning:datatable
+    data="{! v.data }"
+    columns="{! v.columns }"
+    keyField="Id"
+    onrowaction="{! c.handleAction }"
+    draftValues="{! v.draftValues }"
+    hideCheckboxColumn="true"
+    suppressBottomBar="true"
+    oncellchange="{! c.handleEdit }"
+  />
+  <br />
+  <lightning:button
+    variant="brand"
+    label="{! v.addButtonLabel }"
+    title="Add ChecklistRecord"
+    onclick="{! c.handleAdd }"
+  />
+</aura:component>
